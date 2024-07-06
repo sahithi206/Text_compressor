@@ -1,0 +1,93 @@
+# Ignore build artifacts
+/build/
+/bin/
+/lib/
+/*.o
+/*.a
+/*.so
+/*.exe
+/*.dll
+# Executables.
+*.exe
+#
+*.out
+# Ignore CMake build artifacts
+CMakeFiles/
+/CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore Visual Studio files
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.ncb
+*.sdf
+*.opensdf
+*.suo
+*.vcproj
+*.vcproj.*
+*.user
+*.psess
+*.pdb
+
+# Ignore Code::Blocks files
+*.layout
+*.depend
+*.layout
+*.cbp
+*.depend
+
+# Ignore Xcode files
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.xccheckout
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Ignore QtCreator files
+*.pro.user
+*.qmake.stash
+*.pro.user.*
+*.qbs.user
+*.qmlproject.user
+*.qmlproject.user.*
+*.creator.user
+
+# Ignore other common editor/project files
+*.idea/
+*.vscode/
+*.DS_Store
+*.swp
+*.swo
+*.swn
+*~
+*.bak
+*.tmp
+
+# Ignore executable files
+*.out
+
+# Ignore logs
+*.log
+
+# Ignore coverage reports
+*.gcda
+*.gcno
+*.gcov
+
+# Ignore debug files
+*.dSYM/
+*.debug/
+
+# Ignore other unwanted files
+*.obj
+*.pch
+*.pdb
